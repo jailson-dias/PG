@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 from tkinter import *
 
 root = Tk()
@@ -15,14 +12,8 @@ def params(master):
     l=Label(master,text="Coloque os valores para U0 ... Un")
     l.pack()
     slide_bar.pack(fill=X)
-    # w = Scale(master, from_=1, to=200, orient=HORIZONTAL)
-    # w.pack(fill=X)
-    # b = Button(master, text='add', command=lambda: add())
-    # b.pack()
     b=Button(master,text='Ok',command=lambda: get(slide_bar))
     b.pack()
-    # b=Button(master,text='rm',command=lambda: remove(0))
-    # b.pack()
 
 
 def get(slide_bar):

@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 import _thread as thread
 
 from hermite_bezier import main_hermite
