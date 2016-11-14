@@ -5,3 +5,6 @@
 - Python3.5
 - PyOpenGL
 
+# Para Executar
+
+Para executar o programa é preciso executar no terminal python main.py
