@@ -50,7 +50,6 @@ def paramentros(p):
 # utilizado para excluir todos os dados da tela
 def reset():
     global pontos,vetores,i_pontos,i_vetores, click_number, parameter
-    print (parameter)
     for i in range(0,len(pontos)-1):
         remove(0)
     parameter = []

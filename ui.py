@@ -1,9 +1,5 @@
 from tkinter import *
 
-# from hermite_bezier import paramentros
-# from main import exibi
-# from aux import get
-factor = 0
 root = Tk()
 root.title("PG 2016.2")
 root.geometry("800x500+100+100")
