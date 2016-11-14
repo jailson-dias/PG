@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 from OpenGL.GL import *
 from OpenGL.GL.exceptional import glEnd
 from OpenGL.GLUT import *
