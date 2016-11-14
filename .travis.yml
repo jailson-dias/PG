@@ -4,7 +4,7 @@ python:
 - "3.5"
 
 before_install:
-  - sudo apt-get install -y python-opengl
+  - pip install PyOpenGL
 
 branches:
   only:
