@@ -4,8 +4,8 @@ language: python
 
 before_install:
   - sudo apt-get install -y python3
-  - sudo apt-get install python3-tk
-  - pip install PyOpenGL
+  - sudo apt-get install -y python3-pip
+  - pip3 install PyOpenGL
 
 branches:
   only:
