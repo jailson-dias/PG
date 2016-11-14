@@ -1,0 +1,13 @@
+language: python
+
+python:
+- "3.5"
+
+before_install:
+  - sudo apt-get install -y python-opengl
+
+branches:
+  only:
+    - master
+
+script: python main.py
