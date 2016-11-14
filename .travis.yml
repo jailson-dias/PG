@@ -1,9 +1,6 @@
-language: python
-
 sudo: required
 
-python:
-- "3.5.2"
+language: python
 
 before_install:
   - sudo apt-get install -y python3
@@ -14,4 +11,4 @@ branches:
   only:
     - master
 
-script: python main.py
+script: python3 main.py
