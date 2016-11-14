@@ -1,10 +1,12 @@
 language: python
 
+sudo: required
+
 python:
-- "3.5"
+- "3.5.2"
 
 before_install:
-  - pip install python3
+  - sudo apt-get install -y python3
   - pip install PyOpenGL
 
 branches:
